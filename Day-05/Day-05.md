@@ -1,4 +1,4 @@
-📘 Day 5 – MAC Address & ARP (Address Resolution Protocol)
+## 📘 Day 5 – MAC Address & ARP (Address Resolution Protocol)
 
 ### 🧩 1. What is a MAC Address?
 
@@ -106,3 +106,4 @@ Copy code
 ✅ Understood ARP and its working  
 ✅ Explored ARP table and commands  
 ✅ Identified ARP security issues  
+
