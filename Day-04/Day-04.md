@@ -1,6 +1,5 @@
 ## 📘 Day 4 – Default Gateway, DNS, and DHCP
 
----
 
 ### 🧩 1. Default Gateway
 
@@ -121,3 +120,4 @@ Copy code
 ✅ Learned DNS and its records  
 ✅ Explained DHCP and DORA process  
 ✅ Practiced basic networking commands  
+
