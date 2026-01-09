@@ -41,7 +41,7 @@
 | **Modem**           | Converts ISP signal (fiber/DSL) into digital data | ISP‑provided device          |
 | **Firewall**        | Protects network by controlling traffic           | Hardware / software firewall |
 
-> 💡 *Tip: Include a simple network diagram in your video showing how these devices connect.*
+> 💡 *
 
 ---
 
@@ -95,3 +95,4 @@
 ✅ Learned LAN, MAN, WAN, and the Internet
 ✅ Introduced core network devices
 ✅ Understood network topologies and packet flow
+
