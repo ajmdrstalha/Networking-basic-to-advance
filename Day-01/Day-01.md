@@ -78,9 +78,9 @@
 
 ### 🧪 **8. Practical / Lab Idea**
 
-* Draw a simple **home network diagram**:
+* Draw a simple **network diagram**:
 
-  `Modem → Router → Switch → PCs + Wi‑Fi Devices`
+  `Global Network → ISP → Router → PCs + Wi‑Fi → Devices`
 
 * Check IP configuration:
 
