@@ -41,8 +41,6 @@ Example:
 IP Address → MAC Address
 192.168.1.1 → 00:1A:2B:3C:4D:5E
 
-yaml
-Copy code
 
 ---
 
