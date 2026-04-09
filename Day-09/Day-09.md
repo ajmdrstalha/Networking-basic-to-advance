@@ -1,6 +1,51 @@
-## 📘 Day 9 – Routing Basics
+## 📘 Day 9 – Switching & Routing Basics
 
-### 🧩 1. What is Routing?
+---
+
+### 9. Key Terms
+
+- **Switch:** Connects devices in LAN  
+- **Router:** Connects different networks  
+- **MAC Address Table:** Stores device MACs  
+- **Routing Table:** Stores network paths  
+- **Next Hop:** Next router to reach destination  
+
+---
+
+### 🔌 1. What is Switching?
+
+**Switching** is the process of **forwarding data within the same network (LAN)** using MAC addresses.
+
+- Works at **Layer 2 (Data Link Layer)**  
+- Uses **MAC Address Table (CAM Table)**  
+- Connects devices inside a LAN  
+- Reduces collision compared to hub  
+
+**Example:**  
+PC1 → Switch → PC2 (Same Network)
+
+---
+
+### 🔄 2. How Switching Works
+
+1. Switch receives a frame  
+2. Checks **destination MAC address**  
+3. Looks into MAC address table  
+4. Forwards frame to correct port  
+
+---
+
+### 🧩 3. Types of Switching
+
+| Type | Description |
+|------|-------------|
+| Store-and-Forward | Checks errors before forwarding |
+| Cut-Through | Fast, forwards immediately |
+| Fragment-Free | Checks first part before forwarding |
+
+---
+
+### 🔀 4. What is Routing?
 
 **Routing** is the process of **forwarding data packets between different networks** using routers.
 
@@ -8,15 +53,12 @@
 - Determines the **best path** for data to reach its destination  
 - Works at **Layer 3 (Network Layer)**  
 
-Example:
+**Example:**  
 PC1 (192.168.1.10) → Router → PC2 (192.168.2.10)
-
-yaml
-Copy code
 
 ---
 
-### 🔢 2. Types of Routing
+### 🔢 5. Types of Routing
 
 | Type | Description |
 |------|-------------|
@@ -26,11 +68,9 @@ Copy code
 
 ---
 
-### 🔁 3. Routing Table
+### 🔁 6. Routing Table
 
 A **routing table** contains information about paths to reach different networks.
-
-Example (simplified):
 
 | Destination | Subnet Mask | Gateway | Interface |
 |------------|-------------|--------|-----------|
@@ -40,7 +80,7 @@ Example (simplified):
 
 ---
 
-### ⚙️ 4. Routing Protocols
+### ⚙️ 7. Routing Protocols
 
 | Protocol | Type | Description |
 |----------|------|-------------|
@@ -51,47 +91,14 @@ Example (simplified):
 
 ---
 
-### 🗂️ 5. Practical / Lab Practice
+### 🧪 8. Practical / Lab Practice
 
-- View routing table on devices:
+- View routing table:
 
-**Windows:**
-route print
-
-makefile
-Copy code
-
-**Linux:**
-ip route show
-
-markdown
-Copy code
-
-- Add static route:
-
-**Windows:**
-route add 192.168.2.0 mask 255.255.255.0 192.168.1.1
-
-yaml
-Copy code
-
-- Test connectivity with `ping` and `tracert/traceroute`
-
----
-
-### 🧠 6. Key Terms
-
-- **Router:** Device that forwards packets between networks  
-- **Routing Table:** Stores network paths  
-- **Static Route:** Manually configured path  
-- **Dynamic Route:** Learned automatically via protocol  
-- **Next Hop:** Next router to reach destination network  
-
----
 
 ### 📘 Day 9 Summary
 
-✅ Learned what routing is and its importance  
-✅ Explored types of routing  
-✅ Understood routing tables and protocols  
-✅ Practiced viewing and configuring routes  
+✅ Learned switching basics and LAN communication  
+✅ Understood routing and inter-network communication  
+✅ Explored routing types and protocols  
+✅ Practiced routing commands  
