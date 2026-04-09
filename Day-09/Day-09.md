@@ -1,17 +1,5 @@
 ## 📘 Day 9 – Switching & Routing Basics
 
----
-
-### 9. Key Terms
-
-- **Switch:** Connects devices in LAN  
-- **Router:** Connects different networks  
-- **MAC Address Table:** Stores device MACs  
-- **Routing Table:** Stores network paths  
-- **Next Hop:** Next router to reach destination  
-
----
-
 ### 🔌 1. What is Switching?
 
 **Switching** is the process of **forwarding data within the same network (LAN)** using MAC addresses.
@@ -95,6 +83,17 @@ A **routing table** contains information about paths to reach different networks
 
 - View routing table:
 
+---
+
+### 9. Key Terms
+
+- **Switch:** Connects devices in LAN  
+- **Router:** Connects different networks  
+- **MAC Address Table:** Stores device MACs  
+- **Routing Table:** Stores network paths  
+- **Next Hop:** Next router to reach destination  
+
+---
 
 ### 📘 Day 9 Summary
 
